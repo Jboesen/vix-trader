@@ -1,2 +1,1 @@
-web: python trade.py
-worker: python trade.py 
+worker: vix-trader run -f trader.py --backend-config config.py
